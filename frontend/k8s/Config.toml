@@ -1,0 +1,26 @@
+catalogHost="prodcat-2479457892"
+cartHost="cart2-833837164"
+recommendHost="recommendation-3051418357"
+currencyHost="currency-2512741866"
+shippingHost="shipping-1527744195"
+checkoutHost="checkout-740814029"
+adHost="adservice-136134387"
+currencyTimeout=3.0
+catalogTimeout=3.0
+cartTimeout=3.0
+shippingTimeout=3.0
+recommendationTimeout=3.0
+adTimeout=3.0
+checkoutTimeout=3.0
+
+# [ballerina.observe]
+# tracingEnabled=true
+# tracingProvider="jaeger"
+
+# [ballerinax.jaeger]
+# agentHostname="jaeger"
+# agentPort=55680
+# samplerType="const"
+# samplerParam=1.0
+# reporterFlushInterval=2000
+# reporterBufferSize=1000
